@@ -11,12 +11,14 @@
         <module name="Activiti-springboot" />
         <module name="netty-demo" />
         <module name="activiti" />
+        <module name="cache-demo" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Activiti-springboot" options="-parameters" />
+      <module name="cache-demo" options="-parameters" />
     </option>
   </component>
 </project>
