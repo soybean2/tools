@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
@@ -10,6 +9,7 @@
         <option value="$PROJECT_DIR$/netty-demo/pom.xml" />
         <option value="$PROJECT_DIR$/Redis-demo/pom.xml" />
         <option value="$PROJECT_DIR$/Redis-Mongodb-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/EasyExcel-demo/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

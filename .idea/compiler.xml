@@ -10,6 +10,7 @@
         <module name="Activiti-spring" />
         <module name="Activiti-springboot" />
         <module name="netty-demo" />
+        <module name="EasyExcel-demo" />
         <module name="activiti" />
         <module name="cache-demo" />
       </profile>
@@ -18,6 +19,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Activiti-springboot" options="-parameters" />
+      <module name="EasyExcel-demo" options="-parameters" />
       <module name="cache-demo" options="-parameters" />
     </option>
   </component>

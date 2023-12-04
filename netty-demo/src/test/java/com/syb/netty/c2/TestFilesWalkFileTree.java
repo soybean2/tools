@@ -12,7 +12,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 public class TestFilesWalkFileTree {
     public static void main(String[] args) throws IOException {
-        final AtomicInteger dirCount = new AtomicInteger();
+        final AtomicInteger dirCount = new AtomicInteger(); // 文件夹数量
         final AtomicInteger fileCount = new AtomicInteger();
         Files.walkFileTree(Paths.get("C:\\Users\\12420\\Desktop\\ceshi\\java\\code"), new SimpleFileVisitor<Path>(){
             @Override

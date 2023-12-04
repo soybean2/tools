@@ -18,7 +18,7 @@ public class TestByteBufferReadWrite {
         buffer.flip();
         System.out.println(buffer.get());
         debugAll(buffer);
-        buffer.compact();
+        buffer.compact(); //compact()方法会把未读的数据拷贝到buffer的头部，然后把position放到最后一个未读元素的后面
         debugAll(buffer);
         buffer.put(new byte[]{0x65, 0x66});
         debugAll(buffer);

@@ -13,5 +13,6 @@ public class Client {
         SocketChannel sc = SocketChannel.open();
         sc.connect(new InetSocketAddress("localhost", 8080));
         System.out.println("waiting...");
+
     }
 }

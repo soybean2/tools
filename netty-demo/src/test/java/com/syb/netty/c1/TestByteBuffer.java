@@ -21,7 +21,7 @@ public class TestByteBuffer {
             //准备缓冲区
             ByteBuffer buffer = ByteBuffer.allocate(10);//10个字节
             while (true){
-                int len = channel.read(buffer);
+                int len = channel.read(buffer); //从channel读到buffer
                 log.debug("读到字节数：{}", len);
                 if (len == -1){
                     break;

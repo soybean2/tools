@@ -10,8 +10,10 @@ import java.nio.ByteBuffer;
  */
 public class TestBufferRead {
     public static void main(String[] args) {
+        // 1. 分配一个指定大小的缓冲区
         ByteBuffer buffer = ByteBuffer.allocate(10);
         buffer.put(new byte[]{'a', 'b', 'c', 'd'});
+        // 2. 切换读模式
         buffer.flip();
         System.out.println((char) buffer.get());
         System.out.println(buffer.get());
